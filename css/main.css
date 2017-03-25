@@ -1,21 +1,40 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+/* ===== NAVIGATION ===== */
 nav {
-	background: #fe7e00;
-	height: 60px;
+	background: linear-gradient(to top, #e56e13 0%, #fe7e00 10%);
+	font-family: 'Baloo Paaji', cursive;
+	height: 12%;
 	position: fixed;
+	padding: 10px;
 	left: 0;
 	right: 0;
 	top: 0;
 }
 
+nav img {
+	height: 52px;
+	margin: 40px;
+	padding: 25px 0;
+	position: absolute;
+	top: -13px;
+	left: 1.5%;
+}
+
 nav > a {
 	color: #ffffff;
-	font-size: 26px;
+	font-size: 32px;
 	font-weight: 700;
-	left: 25px;
+	left: 5%;
+	top: 20%;
 	position: absolute;
 	text-align: left;
 	text-decoration: none;
-	top: 10px;
+	padding: 25px;
 }
 
 nav span {
@@ -23,10 +42,17 @@ nav span {
 	text-align: left;
 }
 
+#TM {
+	color: #fec267;
+}
+
 nav ul {
+	font-size: 20px;
+	font-weight: bold;
 	position: absolute;
-	right: 25px;
-	top: 5px;
+	padding: 15px 0;
+	right: 5%;
+	top: 20%;
 }
 
 nav li {
@@ -35,6 +61,105 @@ nav li {
 	padding: 0 15px;
 }
 
-sup {
-	font-size: 14px;
+.navleft {
+	font-size: 16px;
+
+/* ===== HEADER SECTION ===== */
+
+
+}
+header {
+	font-family: 'Baloo Paaji', cursive;font-family: 'Baloo Paaji', cursive;
+	font-size: 28px;
+	height: 20px;
+	margin: 50px;
+	padding: 10%;
+	float: right;
+	width: 43%;
+}
+header h1 {
+	color: #fd7e00;
+	font-weight: 200;
+}
+
+header h1 span {
+	font-weight: bold;
+}
+
+header span.webapp {
+	color: #77ccc9;
+}
+
+header button {
+	float: right 5%;
+	padding: 30px;
+	margin: 25px;
+	height: 70px;
+	width: 325px;
+	bottom: 35%;
+}
+
+header img {
+	position: absolute;
+	left: 3%;
+	height: 48%;
+	width: 38%;
+}
+
+#button1 {
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Baloo Paaji', cursive;
+	background-color: #fd7d00	;
+	text-decoration: none;
+	line-height: 7px;
+	border: 0;
+	border-radius: 2.5px;
+}
+
+#button2 {
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Baloo Paaji', cursive;
+	background-color: #79cac8;
+	text-decoration: none;
+	line-height: 7px;
+	border: 0;
+	border-radius: 2.5px;
+}
+
+/* ===== SEARCH BUTTON ===== */
+
+.searchbox {
+	position: absolute;
+	width: 150px;
+	top: 15%;
+	right: 14.5%;
+}
+
+.searchbox input#search {
+	width: 300px;
+	height: 75px;
+	background: #f0f0f0;
+	border: none;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: 800px;
+}
+
+.searchbox .searchIcon {
+	position: absolute;
+	color: #d3d3d3;
+	top: 22.5%;
+	margin-left: 160%;
+}
+/* ====== FOOTER SECTION ===== */
+
+footer {
+	background-color: #7accc8;
+	position: absolute;
+	bottom: 0;
+	height: 12%;
+	width: 100%;
+
 }
